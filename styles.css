@@ -12,6 +12,12 @@ h1 {
 #art-container {
     width: 80%;
     margin: 0 auto;
+    position: relative;
+    padding: 20px; /* 額縁用のパディング */
+    border: 10px solid #8B4513; /* 額縁の色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 影を追加して立体感を出す */
+    border-radius: 5px; /* 角を丸くする */
+    background-color: #F5DEB3; /* 背景色を額縁に合わせる */
 }
 
 #art-image {
