@@ -18,6 +18,7 @@ const displayArtwork = () => {
     const artImage = document.getElementById('art-image');
     artImage.src = artwork.src;
     artImage.alt = artwork.alt;
+    artDescription.textContent = artwork.alt; // 説明を表示
 };
 
 // ウィンドウが読み込まれた時に名画を表示
