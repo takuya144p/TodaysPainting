@@ -22,6 +22,6 @@ h1 {
 }
 
 #art-description { 
-    margin-top: 10px; /* 画像の下にマージンを設定 */ 
-    text-align: right; /* 右下に配置 */
+    margin-top: 10px; 
+    text-align: right; 
 }
