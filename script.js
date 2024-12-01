@@ -1,8 +1,8 @@
 // 名画のリスト
 const artworks = [
-    { src: 'images/art1.jpg', alt: 'nihon meigei gashu Vol.1' },
-    { src: 'images/art2.jpg', alt: 'nihon meigei gashu Vol.1' },
-    { src: 'images/art3.jpg', alt: 'nihon meigei gashu Vol.1' },
+    { src: 'images/art1.jpg', alt: 'Takahashi Shōtei nihon meikei gashu Vol.1' },
+    { src: 'images/art2.jpg', alt: 'Takahashi Shōtei nihon meikei gashu Vol.1' },
+    { src: 'images/art3.jpg', alt: 'Takahashi Shōtei nihon meikei gashu Vol.1' },
 ];
 
 // 毎日のランダムな名画を選択
