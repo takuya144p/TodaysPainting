@@ -22,6 +22,18 @@ const displayArtwork = () => {
     artDescription.textContent = artwork.alt; // 説明を表示
 };
 
-// ウィンドウが読み込まれた時に名画を表示
-window.onload = displayArtwork;
+// 現在の日付を表示する関数
+const displayCurrentDate = () => {
+    const dateElement = document.getElementById('current-date');
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = ('0' + (today.getMonth() + 1)).slice(-2); // 月を2桁にフォーマット
+    const day = ('0' + today.getDate()).slice(-2); // 日を2桁にフォーマット
+    dateElement.textContent = `${year}/${month}/${day}`; // YYYY/MM/DD形式で表示
+};
 
+// ウィンドウが読み込まれた時に日付を表示
+window.onload = () => {
+    displayArtwork(); // 名画を表示
+    displayCurrentDate(); // 日付を表示
+};
