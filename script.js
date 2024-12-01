@@ -1,8 +1,8 @@
 // 名画のリスト
 const artworks = [
-    { src: 'images/art(1).jpg', alt: '名画1の説明' },
-    { src: 'images/art(2).jpg', alt: '名画2の説明' },
-    { src: 'images/art(3).jpg', alt: '名画3の説明' },
+    { src: 'images/art1.jpg', alt: '名画1の説明' },
+    { src: 'images/art2.jpg', alt: '名画2の説明' },
+    { src: 'images/art3.jpg', alt: '名画3の説明' },
 ];
 
 // 毎日のランダムな名画を選択
