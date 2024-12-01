@@ -16,6 +16,7 @@ const getRandomArtwork = () => {
 const displayArtwork = () => {
     const artwork = getRandomArtwork();
     const artImage = document.getElementById('art-image');
+    const artDescription = document.getElementById('art-description');
     artImage.src = artwork.src;
     artImage.alt = artwork.alt;
     artDescription.textContent = artwork.alt; // 説明を表示
