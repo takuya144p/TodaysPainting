@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 // 名画のリスト
 const artworks = [
-    { src: '"C:\Users\takuy\Documents\Project-TP\12314684-1-5.jpg"', alt: '日本名景画集 其1' },
-    { src: '"C:\Users\takuy\Documents\Project-TP\12314684-1-8.jpg"', alt: '日本名景画集 其1' },
-    { src: '"C:\Users\takuy\Documents\Project-TP\12314684-1-13.jpg"', alt: '日本名景画集 其1' },
+    { src: 'images/art(1)', alt: '日本名景画集 其1' },
+    { src: 'images/art(2)', alt: '日本名景画集 其1' },
+    { src: 'images/art(3)', alt: '日本名景画集 其1' },
     // ... 他の名画も追加
 ];
 
