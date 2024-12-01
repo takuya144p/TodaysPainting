@@ -1,14 +1,14 @@
 // 名画のリスト
 const artworks = [
-    { src: 'images/art1.jpg', alt: '名画1の説明' },
-    { src: 'images/art2.jpg', alt: '名画2の説明' },
-    { src: 'images/art3.jpg', alt: '名画3の説明' },
+    { src: 'images/art1.jpg', alt: 'nihon meigei gashu Vol.1' },
+    { src: 'images/art2.jpg', alt: 'nihon meigei gashu Vol.1' },
+    { src: 'images/art3.jpg', alt: 'nihon meigei gashu Vol.1' },
 ];
 
 // 毎日のランダムな名画を選択
 const getRandomArtwork = () => {
     const today = new Date().getDate();
-    const artworkIndex = today % artworks.length; // 日にちに基づいて名画を選択
+    const artworkIndex = today % artworks.length; 
     return artworks[artworkIndex];
 };
 
