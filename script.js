@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 // 名画のリスト
 const artworks = [
-    { src: 'images/art(1)', alt: '日本名景画集 其1' },
-    { src: 'images/art(2)', alt: '日本名景画集 其1' },
-    { src: 'images/art(3)', alt: '日本名景画集 其1' },
+    { src: 'images/art(1).jpg', alt: '日本名景画集 其1' },
+    { src: 'images/art(2).jpg', alt: '日本名景画集 其1' },
+    { src: 'images/art(3).jpg', alt: '日本名景画集 其1' },
     // ... 他の名画も追加
 ];
 
@@ -27,9 +27,9 @@ window.onload = displayArtwork;
 =======
 // 名画のリスト
 const artworks = [
-    { src: 'images/art(1)', alt: '日本名景画集 其1' },
-    { src: 'images/art(2)', alt: '日本名景画集 其1' },
-    { src: 'images/art(3)', alt: '日本名景画集 其1' },
+    { src: 'images/art(1).jpg', alt: '日本名景画集 其1' },
+    { src: 'images/art(2).jpg', alt: '日本名景画集 其1' },
+    { src: 'images/art(3).jpg', alt: '日本名景画集 其1' },
     // ... 他の名画も追加
 ];
 
