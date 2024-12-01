@@ -20,3 +20,8 @@ h1 {
     border: 5px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+#art-description { 
+    margin-top: 10px; /* 画像の下にマージンを設定 */ 
+    text-align: right; /* 右下に配置 */
+}
